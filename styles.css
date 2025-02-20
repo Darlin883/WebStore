@@ -81,6 +81,14 @@ html, body {
     margin: 0 auto;
     padding: 0 1.5em;
 }
+.containerH{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
@@ -123,6 +131,8 @@ html, body {
 }
 
 .btn {
+    display: flex;
+    justify-content:space-between;
     text-align: center;
     vertical-align: middle;
     padding: .67em .67em;
@@ -130,7 +140,9 @@ html, body {
 }
 
 .btn-header {
-    margin: .5em 15% 2em 15%;
+    display: flex;
+    justify-content: space-around;
+    margin: 12% 15%;
     color: white;
     border: 2px solid #2D9CDB;
     background-color: rgba(255, 255, 255, .1);
